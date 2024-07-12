@@ -1,0 +1,25 @@
+1. Data extractor
+
+    - Call API endpoint and download pdf (html content)
+    - Rename and Store pdf locally
+
+2. Data Preprocesser -> Page-1-df, Page-2-df
+
+    - Preprocess Page-1
+        - Read pdf and convert to dataframe (tabulate)
+        - Data cleaning
+        - Transform dataframe to required format
+    - Preprocess Page-2
+        - Read pdf and convert to dataframe (tabulate)
+        - Data cleaning
+        - Transform dataframe to required format
+
+3. Store data
+
+    - Update MySQL tables
+        - Connect to MySQL (create session)
+        - Insert Page-1 data to table_1
+        - Insert Page-2 data to table_2
+    - Upload pdf files to cloud
+        - connect to Azure blob
+        - upload files

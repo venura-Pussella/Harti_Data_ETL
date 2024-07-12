@@ -1,0 +1,16 @@
+requests
+beautifulsoup4
+matplotlib-inline
+numpy
+pandas
+PyPDF2
+SQLAlchemy
+pyodbc
+pdfplumber
+aiohttp
+aiosignal
+async-timeout
+azure-core
+azure-cosmos 
+azure-functions
+azure-storage-blob
