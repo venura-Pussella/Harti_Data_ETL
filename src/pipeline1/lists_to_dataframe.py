@@ -8,4 +8,5 @@ def create_dataframe(dates, categories, items, pettah_price_ranges, pettah_avera
         'Pettah Price Range': pettah_price_ranges,
         'Pettah Average': pettah_averages
     })
+    
     return df

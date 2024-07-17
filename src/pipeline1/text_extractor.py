@@ -32,4 +32,3 @@ def extract_text_from_first_page(pdf_data):
         first_page_text = pdf.pages[0].extract_text()
        
     return first_page_text
-
